@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #C6BEB4;
+    position: relative;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img{
+    height: 20px;
+    width: 30%;
+}
+
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+
+}
+
+#elems{
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+
+#elem1{
+    width: 30%;
+    height: 100%;
+    
+}
+
+#elem2{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 60px;
+    border-right: 1px solid #a5a5a5;
+    border-left: 1px solid #a5a5a5;
+}
+
+#elem3{
+    width: 30%;
+    height: 100%;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem1 h4 span{
+    background-color: #B83C12;
+    color: #C6BEB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem1 p{
+    font-size: 22px;
+}
+
+
+
+/* hover part */
+#image-div:hover  img{
+    scale: 1.1;
+}
