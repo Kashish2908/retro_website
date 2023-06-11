@@ -3,9 +3,6 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
-
-
 var tl = gsap.timeline()
 
 
@@ -23,7 +20,7 @@ tl.to("#page1",{
 
 tl.to("#page1", {
     y: "0vh",
-    rotate:360,
+    rotate: -360,
     scale: 1,
     duration: 1,
     ease: "power4.out"
