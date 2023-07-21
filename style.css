@@ -496,6 +496,7 @@ body {
     transform: translateX(0);
   }
   100%{
+    /* 4px ka already gap tha uske andar, or margin right = 30px tha, that's why 34px */
     transform: translateX(calc(-100% - 34px));
   }
   
