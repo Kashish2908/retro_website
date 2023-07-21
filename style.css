@@ -20,9 +20,6 @@ body {
   width: 100%;
 }
 
-/* *::-webkit-scrollbar {
-  display: none;
-} */
 
 #main {
   background-color: #222;
@@ -254,7 +251,6 @@ body {
 
 /* page2 - left */
 #page2-left {
-  /* margin-top: -55vh; */
   height: 100%;
   width: 33vw;
   padding-right: 2vw;
